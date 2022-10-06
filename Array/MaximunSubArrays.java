@@ -51,7 +51,7 @@ public class MaximunSubArrays {
             if(currSum > maxSum){
                 maxSum = currSum;
             }
-            if(currSum > 0){
+            if(currSum < 0){
                 currSum = 0;
             }
         }
